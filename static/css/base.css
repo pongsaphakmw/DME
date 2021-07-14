@@ -1,0 +1,48 @@
+.root{
+    /* ***********Color********** */
+    --hue-color: 250;
+    /* **********Change Color up here*********** */
+    --header-height: ;
+
+    --first-color: hsl(var(--hue-color),69%,61%) ;
+    --first-color-second: hsl(var(--hue-color),69%,61%);
+    --first-color-alt: hsl(var(--hue-color),57%,53%);
+    --first-color-lighter: hsl(var(--hue-color),92%,61%);
+    --title-color: hsl(var(--hue-color),8%,15%);
+    --text-color: hsl(var(--hue-color),8%,45%);
+    --text-color-light: hsl(var(--hue-color),8%,65%);
+    --input-color: hsl(var(--hue-color),70%,96%);
+    --body-color: hsl(var(--hue-color),60%,99%);
+    --container-color: #fff;
+
+    /* ***********Fonts*********** */
+    --body-font-thai: 'Prompt', sans-serif;
+    --body-font-eng: ;
+    /* Insert fonts up here */
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    /* **********Fonts weigh************ */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    /* ***********Margenes Bottom********** */
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+}
+
+/* *******************Nav bar***************** */
+
+.nav_menu{
+    border-radius: .5px;
+    border-color: black;
+}
